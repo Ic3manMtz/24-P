@@ -1,0 +1,220 @@
+/*Martínez Buenrostro Jorge Rafael*/
+h1{
+  color: #556b2f;
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+h2{
+  color: rgb(174, 99, 6);
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+p{
+  color: rgb(109, 109, 109);
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+
+strong{
+  color: rgb(204, 0, 0);
+}
+
+em{
+  color: cornflowerblue;
+}
+
+ul{
+  margin-left: 15%;
+}
+
+ol{
+  margin-left: 5%;
+}
+
+li{
+  border: 1px solid;
+  margin: 1%;
+  padding: 1px;
+  text-align: center;
+  background-color: rgb(194, 189, 189);
+}
+
+a{
+  color: brown;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: none;
+  
+}
+
+a:hover{
+  color:cadetblue;
+  font-size: 18px;
+  font-style: italic;
+  text-decoration: none;
+  
+}
+
+img{
+  margin: 40px;
+  border: 1px solid #999999;
+  outline: 2px dashed #000000;
+  outline-offset: 5px;
+}
+
+img:hover{
+  transform: rotate(180deg);
+  transform: scale(1.5);
+}
+
+header{
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  background: -webkit-linear-gradient(top, #e7e5e5, #607935);
+}
+
+section{
+  text-align: justify;
+}
+
+article{
+  margin: 20px;
+}
+
+footer{
+  text-align: center;
+}
+
+/* Pantallas grandes (mínimo 1024px) */
+@media (min-width: 1024px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+  }
+
+  article {
+    flex: 1;
+    min-width: 30%;
+    box-sizing: border-box;
+  }
+}
+
+/* Tabletas (entre 720px y 1023px) */
+@media (min-width: 720px) and (max-width: 1023px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+  }
+
+  article {
+    flex: 1;
+    min-width: 45%;
+    box-sizing: border-box;
+  }
+}
+
+/* Móviles (máximo 480px) */
+@media (max-width: 480px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  article {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  header img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+/* Estilos generales para Flexbox */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+article {
+  flex: 1;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+/* Estilos para impresión */
+@media print {
+  nav, header, footer {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    color: black;
+    background: white;
+  }
+
+  article {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  img {
+    display: none;
+  }
+
+  p {
+    color: black;
+  }
+}
