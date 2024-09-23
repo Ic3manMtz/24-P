@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<albums>
+    <album>
+        <artist>The Beatles</artist>
+        <title>Abbey Road</title>
+        <songs>17</songs>
+        <year>1969</year>
+        <genre>Rock</genre>
+    </album>
+    <album>
+        <artist>Pink Floyd</artist>
+        <title>The Dark Side of the Moon</title>
+        <songs>10</songs>
+        <year>1973</year>
+        <genre>Progressive Rock</genre>
+    </album>
+    <album>
+        <artist>Michael Jackson</artist>
+        <title>Thriller</title>
+        <songs>9</songs>
+        <year>1982</year>
+        <genre>Pop</genre>
+    </album>
+    <album>
+        <artist>Queen</artist>
+        <title>A Night at the Opera</title>
+        <songs>12</songs>
+        <year>1975</year>
+        <genre>Rock</genre>
+    </album>
+    <album>
+        <artist>Nirvana</artist>
+        <title>Nevermind</title>
+        <songs>12</songs>
+        <year>1991</year>
+        <genre>Grunge</genre>
+    </album>
+    <album>
+        <artist>Radiohead</artist>
+        <title>OK Computer</title>
+        <songs>12</songs>
+        <year>1997</year>
+        <genre>Alternative Rock</genre>
+    </album>
+    <album>
+        <artist>Madonna</artist>
+        <title>Like a Prayer</title>
+        <songs>11</songs>
+        <year>1989</year>
+        <genre>Pop</genre>
+    </album>
+    <album>
+        <artist>U2</artist>
+        <title>The Joshua Tree</title>
+        <songs>11</songs>
+        <year>1987</year>
+        <genre>Rock</genre>
+    </album>
+    <album>
+        <artist>Bob Dylan</artist>
+        <title>Highway 61 Revisited</title>
+        <songs>9</songs>
+        <year>1965</year>
+        <genre>Folk Rock</genre>
+    </album>
+    <album>
+        <artist>Fleetwood Mac</artist>
+        <title>Rumours</title>
+        <songs>11</songs>
+        <year>1977</year>
+        <genre>Rock</genre>
+    </album>
+</albums>
